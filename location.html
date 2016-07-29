@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- style de la barre de navigation -->
+	<!--<link rel="stylesheet" type="text/css" href="navbar.css">-->
+	<!-- style de la page -->
+	<!--<link rel="stylesheet" type="text/css" href="stylelocation.css">-->
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+	<script src="https://use.fontawesome.com/50d70c63af.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="parallax/parallax.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>		
+	<script type="text/javascript" src="scroll.js"></script>
+
+	<title>Fédala Déco Traiteur - Locations</title>
+
+</head>
+
+	<!-- barre de navigation -->
+	<body class="container-fluid nopad">
+<!-- barre de navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Fedala Déco Traiteur</a>
+		</div>
+		<div class="collapse navbar-collapse" id="MenuNavbar">
+			<ul class="nav navbar-nav nav-middle">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="traiteur-1.html">Traiteur</a></li>
+				<li><a href="traiteur-1.html">Evènements</a></li>
+				<li><a href="location.html">Locations</a></li>
+				<li><a href="contact.html">Contacter</a></li>
+			</ul>
+			<div class = "nav-right">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="se connecter.html">Se Connecter</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="container-fluid">
+	 	<ul class="nav navbar-nav" id="onglets">
+	 	
+	      	<li class="dropdown">
+	    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Cuisine</a>
+	    		<ul class="dropdown-menu">
+	    			<hr class="nomarg"/>
+			        <li><a href="#couvert" onclick="show('couvert')">Couverts</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#service_table" onclick="show('service_table')">Services de tables</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Verres</a></li>
+			        <hr class="nomarg"/>
+	    		</ul>
+	  		</li>
+	    	<li class="dropdown">
+	    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Mobilier</a>
+	    		<ul class="dropdown-menu">
+	    			<hr class="nomarg"/>
+			        <li><a href="#">Chaise</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Tables</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Lorem</a></li>
+			        <hr class="nomarg"/>
+	    		</ul>
+	  		</li>
+	    	<li class="dropdown">
+	    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Accessoires</a>
+	    		<ul class="dropdown-menu">
+	    			<hr class="nomarg"/>
+			        <li><a href="#">Nappe</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Fleurs</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Lorem</a></li>
+			        <hr class="nomarg"/>
+	    		</ul>
+	  		</li>
+	    	<li class="dropdown">
+	    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
+	    		<ul class="dropdown-menu">
+	    			<hr class="nomarg"/>
+			        <li><a href="#">Lorem</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Lorem</a></li>
+			        <hr class="nomarg"/>
+			        <li><a href="#">Lorem</a></li>
+			        <hr class="nomarg"/>
+	    		</ul>
+	  		</li>
+	 	</ul>
+	</header>
+
+	
+
+	<section class="content">
+		<div class="container">
+			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			<div class="container flex cacher" id="couvert">
+				<img src="img/couvert.jpg" class="img-responsive pic" alt="img">
+				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			</div>
+			<div class="container flex cacher" id="service_table">
+				<img src="img/carous4.jpg" class="img-responsive pic" alt="img">
+				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>

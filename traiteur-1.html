@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<!-- style commun -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<!-- style de la barre de navigation 
+		<link rel="stylesheet" type="text/css" href="navbar.css">-->
+		
+		<!-- style de la page 
+		<link rel="stylesheet" href="traiteur-1.css">-->
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/50d70c63af.js"></script>
+		<script type="text/javascript" src="scroll.js"></script>
+		<title>Fedala Deco Traiteur</title>
+	</head>   
+
+	<body class="container-fluid nopad">
+
+			<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Fedala Déco Traiteur</a>
+		</div>
+		<div class="collapse navbar-collapse" id="MenuNavbar">
+			<ul class="nav navbar-nav nav-middle">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="traiteur-1.html">Traiteur</a></li>
+				<li><a href="traiteur-2.html">Evènements</a></li>
+				<li><a href="location.html">Locations</a></li>
+				<li><a href="contact.html">Contacter</a></li>
+			</ul>
+			<div class = "nav-right">
+				<ul class="nav navbar-nav navbar-right">
+						<li><a href="se connecter.html">Se Connecter</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+			
+			<div class="row blockcentral">
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-left" class="img-left-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-left')" onmouseout="remBlur('img-left')">
+						<div class="entre color-white"><a href="#"> Traiteur</a></div>
+					</div>
+				</div>
+
+
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-center" class="img-center-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-center')" onmouseout="remBlur('img-center')">
+						<div class="entre color-white"><a href="#">Location</a> </div>
+					</div>
+				</div>
+
+				
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-right" class="img-right-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-right')" onmouseout="remBlur('img-right')">
+						<div class="entre color-white"><a href="#">Menu Mariage</a> </div>
+					</div>
+				</div>
+			</div>
+
+	</body>
+	
+</html>

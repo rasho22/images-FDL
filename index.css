@@ -1,0 +1,669 @@
+
+
+.parallax-window {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width : 100%;
+}
+
+
+
+.block_1{
+  margin-top: 80px;
+  
+}
+
+.block_1 a {
+  text-decoration: none;
+  color : black;
+}
+
+.col-lg-4{
+  padding-right : 0;
+  margin-right: 0;
+  margin-left : 0;
+  padding-left: 0;
+}
+
+.img_fond{
+  padding: 7px;
+  margin : 7px;
+}
+
+
+.entre {/*titre ... 3 images haut de page*/
+    margin: 0;
+    width: 80%;
+    height: 70px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Arizonia', cursive;
+    font-style: italic;
+    text-shadow : 2px 2px 2px white;
+    color : black;
+}
+
+.entre a:hover{
+  cursor : pointer;
+  color: white;
+  text-shadow: 5px 5px 2px black;
+}
+
+p {/*paragraphes sous 3-photos et sous services*/
+  text-align: center;
+  font-family: "Philosopher";
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+  background-color: #FFF5E1;
+  background-image: url(img/restaureF3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity : 0.7;
+
+}
+
+.bg-default {
+  padding: 100px 0;
+}
+
+.mid-text {
+  margin: auto;
+  float: none;
+}
+
+/*arrière plan section Nos services*/
+.bg-primary {  
+  padding: 150px 0;
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  background-color: #CFB741; /*autour image arr plan*/
+  opacity : 0.9;
+  background-image: url(img/footer.jpg);  
+  /*background-image: url(img/header4.jpg);*/
+}
+
+.bg-primary p{/*paragraphe description "Fedala Deco traiteur" Plus parag "Nos Services"*/
+  margin-top: 50px;
+  font-family: 'Philosopher';
+  color :black;
+  background-color: #FFF5E1;
+  background-image: url(img/restaureF3.jpg);
+  background-repeat: no-repeat;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding : 25px;
+}
+
+
+.mid-text {
+  width : 75%;
+
+}
+
+.mid-text h1 {/*"Fedala Deco Traiteur" position centrale*/
+  padding: 15px 0 10px 0;
+  font-size: 60px;
+font-family: 'Great Vibes';
+color : black;
+text-shadow : 2px 2px 2px white;
+/*background-color: #FFF5E1;orange;*/
+background-image: url(img/restaureF3.jpg);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+opacity: 0.8;
+border-top-right-radius: 25px;
+border-bottom-left-radius: 25px;
+}
+
+.mid-text p {
+  background-color: #FFF5E1;
+  background-image: url(img/restaureF3.jpg);
+background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: cover;
+opacity: 0.8;
+  opacity: 0.8;
+  padding : 10px;
+  font-size: 15px;
+}
+
+h3 {/*titre "Nos Services"*/
+  font-size: 60px;
+  font-weight: 450;
+font-family: 'Great Vibes';
+color : black;
+  /*font-style: italic;*/
+  text-shadow: 2px 2px 4px grey;
+  padding: 15px 0 0 0 ;
+background-image: url(img/restaureF3.jpg);
+background-attachment: relative;
+  background-repeat: repeat;
+  background-position: cover;
+  opacity: 0.8;
+
+}
+
+/*text : "l'essentiel pour un evenement"*/
+
+.bg-primary h2 {
+  padding: 10px;
+  text-align: center;
+  font-weight: 550;
+  font-family: 'Great Vibes', cursive;
+  color : black;
+  /*background-color: #FFF5E1;orange;*/
+  background-image: url(img/restaureF3.jpg);
+  background-attachment: relative;
+  background-repeat: repeat;
+  background-position: cover;
+  opacity: 0.8;
+  font-size: 28px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.well-h3 {/*div "Nos Services"*/
+ 
+/*  background-image: url(img/contact-bg.jpg);*/
+  
+  
+  text-align: center;
+  border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+
+.bg-default h1 {/*?*/
+  color : red;
+  padding-top: 55px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  height : 545px;
+  background-image: url('img/footer.jpg');
+  background-attachment: fixed;
+  opacity: 0.9;
+  border-top-right-radius: 5% ;
+  border-bottom-left-radius: 5%;
+}
+
+.about p {
+border-top-right-radius: 15px;  
+}
+
+.pic {
+
+  width: 250px;
+  height: 200px;
+}
+
+.pad {
+  padding: 0 50px;
+
+}
+/*bloc 4 images à droite de "Nos Services"*/
+.bloc-img {
+  width: 545px;
+  height: 545px;
+  padding-right: 15px;
+  padding-top: 50px;
+ background-color: #FFF5E1;
+ opacity: 0.9;
+background-image:url(img/restaureF3.jpg);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+  /*margin-top: -55px;*/
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
+.effect {
+  width: 250px;
+  height: 200px;
+  background: #e97f8e;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.effect:hover img {
+  opacity: 0.3;
+  transition: all 0.50s;
+}
+
+.effect:hover .overlay {
+  opacity: 1;
+}
+
+.title-hover{
+  color : black;
+  text-shadow: 2px 2px 4px white;
+}
+
+
+.overlay {/*effet sur 4 photos*/
+  width: 250px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0.5;
+  padding-top: 75px;
+  font-size: 45px;
+}
+
+.carous-text {
+  font-family: 'Tangerine';
+  
+  margin-top : 10px;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 6px white;
+  font-size: 3.5em;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+
+.carous-text-name {
+  margin: auto;
+  text-align: right;
+  color: black;
+  font-size: 3em;
+  font-family: 'Tangerine';
+}
+
+.carous-inner2 {
+  background-image : url('img/FB1.jpg');
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  background-size: cover;
+  height: 150px;
+}
+
+
+/*ajout hover*/
+
+.img-container {
+  position: relative;
+}
+
+.img-left-background,
+.img-center-background,
+.img-right-background {
+  position: absolute;
+  z-index: -1;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+
+}
+
+.img-left-background {
+  background-image: url(img/carous.jpg);
+}
+
+.img-center-background {
+  background-image: url(img/img-1.jpeg);
+}
+
+.img-right-background {
+  background-image: url(img/header-location.jpg);
+}
+
+.img-foreground {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+.fullwidth {
+  width: 100%;
+}
+
+.nopad {
+  padding: 0;
+}
+
+.nomarg {
+  margin: 0;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.blur
+{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+
+.color-white {
+  color: #FFF
+}
+
+/***************************************************************/
+/****************** barre de navigation ************************/
+/***************************************************************/
+
+.navbar-default,
+.navbar-default.scroll {
+  background-color: rgba(138, 129, 175, 0.7);
+  opacity: 0.90;
+}
+
+.navbar-default .navbar-header .navbar-brand,
+.navbar-default .navbar-header .navbar-brand.scroll,
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a.scroll {
+  color: black;#FFF
+
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:hover.scroll,
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:hover.scroll {
+  color: white;
+  text-shadow: 4px 4px 2px black;
+}
+
+.navbar-default,
+.navbar-default .navbar-header .navbar-brand,
+.navbar-default .nav > li > a:hover {
+  transition: all 0.50s;
+}
+
+.navbar-default {
+  padding: 0;
+  border: none;
+
+}
+.navbar-fixed-top{
+  padding-bottom : 20px;
+}
+
+.navbar-default.scroll {
+  padding: 0;
+}
+
+
+/*Fedala dans Navbar :*/
+
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'Great Vibes';
+  font-size: 55px;
+  color : red;
+  letter-spacing: 0px;
+  line-height: 55px;
+  padding-right: 65px;
+}
+
+.navbar-nav nav-middle ul{
+  font-family : "Arizonia",sans-serif;
+}
+.nav-middle {
+  /*float : left;*/
+  opacity: 1;
+  /*padding: 0 0 0 25%;*/
+  text-shadow: 2px 2px 4px white;
+  font-size: 20px;
+  padding-top: 20px;
+  font-family : "Arizonia",sans-serif;
+
+}
+
+.navbar-right {
+  float: right;
+  margin-right: 0;
+  font-size: 20px;
+  padding-top: 20px;
+  font-family : "Arizonia",sans-serif;
+}
+
+.nav-right li a {
+  font-size: 15px;
+  color : blue;
+  font-family : "Arizonia",sans-serif;
+}
+
+/*****************************************************************/
+/**********************traiteur1*********************************/
+/***************************************************************/
+.blockcentral{
+  margin-top: 100px;
+}
+.img-container {
+  position: relative;
+}
+
+.img-left-background,
+.img-center-background,
+.img-right-background {
+  position: absolute;
+  z-index: -1;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 2s;
+}
+
+.img-left-background {
+
+  background-image: url(img/img3.jpg);
+}
+
+.img-center-background {
+  background-image: url(img/FB1.jpg);
+  background-position: center;
+}
+
+.img-right-background {
+  background-image: url(img/mari4.jpg);
+}
+
+.img-foreground {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entre {/*titre ... 3 images haut de page*/
+    margin: 0;
+    width: 80%;
+    height: 70px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Philosopher';
+    font-style: italic;
+    text-shadow : 2px 2px 2px white;
+    color : black;
+}
+
+.entre a:hover{
+  cursor : pointer;
+  color: orange;
+  text-shadow: 5px 5px 2px black;
+}
+
+
+/************************************************************/
+/**********************  Traiteur2 **************************/
+/***********************************************************/
+
+.block{
+  margin-top: 90px;
+}
+.img-1 {
+    background-image: url(img/traiteur-1.jpeg);
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+.img-2 {
+    background-image: url(img/dessert.jpeg);
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+
+.entre {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entre:hover {
+    width: 75px;
+    height: 55px;
+}
+
+.plat {
+    width: 65px;
+    height: 45px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plat:hover {
+    width: 75px;
+    height: 55px;
+    border: 1px solid black;
+    border-left: none;
+}
+.dessert {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dessert:hover {
+    width: 75px;
+    height: 55px;
+}
+.menu {
+    position: fixed;
+    padding-top: 80px;
+}
+
+.contenu-entre {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.pad-bot {
+    padding-bottom: 100px;
+    font-family: 'Philosopher', serif;
+    font-size: 22px;
+}
+
+.pad-top {
+    padding-top: 50px;
+}
+
+.pad-h2 {
+    padding-bottom: 40px;
+    font-family: 'Philosopher', serif;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.pad-ico-right {
+    padding-right: 50px;
+}
+
+.pad-ico-left {
+    padding-left: 50px;
+}
+
+.size {
+    height: 768px;
+}
+
+.pad-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.pad-right {
+    padding-right: 50px;
+}
+
+
+/*********************************************************************/
+/**********************location *************************************/
+/********************************************************************/
+#onglets{
+  margin-top: 90px;
+}
+
+/****************************************************************************/
+/*************************************contacte*******************************/
+/****************************************************************************/
+#contact{
+  margin-top: 90px;
+}
+
+/*****************************************************************************/
+/***************************se connecter***************************************/
+/***********************************************************************************/
+.blockdeux{
+  margin-top: 90px;
+}
